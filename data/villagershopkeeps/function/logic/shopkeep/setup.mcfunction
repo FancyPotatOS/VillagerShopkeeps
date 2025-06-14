@@ -79,7 +79,8 @@ data modify entity @s Offers set value {Recipes:[\
                 {"text":"    Shopkeep cannot be unlocked by anybody else.","color":"gray",italic:false},"",\
                 [{"text":"/trigger villagershopkeeps.triggers.unlock","color":"white",italic:true},{"text":": This allows","color":"gray",italic:false}],\
                 {"text":"    the Shopkeep's trade to change. The Shopkeep can","color":"gray",italic:false},\
-                {"text":"    then be locked by anybody else.","color":"gray",italic:false}\
+                {"text":"    then be locked by anybody else.","color":"gray",italic:false},\
+                {"text":"    This only works if run by the owner.","color":"gray",italic:true},\
             ]\
         }\
     },\
@@ -90,9 +91,11 @@ data modify entity @s Offers set value {Recipes:[\
             "minecraft:custom_name":{color:"white",italic:false,"text":"Tutorial (2/2)"},\
             "minecraft:lore": [\
                 [{"text":"/trigger villagershopkeeps.triggers.drop_payment_items","color":"white",italic:true},{"text":": This drops all","color":"gray",italic:false}],\
-                {"text":"    the Shopkeep's items that were traded.","color":"gray",italic:false},"",\
+                {"text":"    the Shopkeep's items that were traded.","color":"gray",italic:false},\
+                {"text":"    This only works if run by the owner.","color":"gray",italic:true},"",\
                 [{"text":"/trigger villagershopkeeps.triggers.drop_product","color":"white",italic:true},{"text":": This drops all","color":"gray",italic:false}],\
-                {"text":"    the Shopkeep's product that the owner gave it.","color":"gray",italic:false},"","",\
+                {"text":"    the Shopkeep's product that the owner gave it.","color":"gray",italic:false},\
+                {"text":"    This only works if run by the owner.","color":"gray",italic:true},"","",\
                 {"text":"Lock this Shopkeep to remove the tutorial.","color":"gray",italic:false},\
             ]\
         }\
