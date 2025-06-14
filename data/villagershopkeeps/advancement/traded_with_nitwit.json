@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "villagershopkeeps.traded_with_nitwit": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "villagershopkeeps:advancements/traded_with_nitwit"
+  }
+}
